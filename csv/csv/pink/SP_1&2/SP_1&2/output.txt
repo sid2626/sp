@@ -1,0 +1,17 @@
+Symbol Table:
+0    NUM1    200
+1    RESULT    204
+
+Literal Table:
+0    ='6'    206
+
+Pool Table:
+0    0
+
+Intermediate Code with LC (Variant I form):
+200   (AD, 1)   (C, 200)
+201   (IS, 4)   (AREG, 1)   (S, 0)
+202   (IS, 4)   (BREG, 2)   (S, 0)
+203   (IS, 1)   (AREG, 1)   (L, 0)
+205   (IS, 4)   (AREG, 1)   (S, 1)
+207   (AD, 2)   

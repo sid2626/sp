@@ -1,0 +1,15 @@
+Lexical Analysis Results:
+'int' is a keyword
+'main' is an identifier
+'(' is a special character
+')' is a special character
+'{' is a special character
+'printf' is an identifier
+'(' is a special character
+"Hello World" is a string/character constant
+')' is a special character
+';' is a special character
+'return' is a keyword
+'0' is a numeric constant
+';' is a special character
+'}' is a special character

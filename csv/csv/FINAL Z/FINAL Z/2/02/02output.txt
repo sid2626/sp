@@ -1,0 +1,37 @@
+
+Location Counter (LC) Table:
+-----------------------------------------
+| Line No:  1 | Address:   0 | Instruction: START 500 |
+-----------------------------------------
+| Line No:  2 | Address: 500 | Instruction: A DC '10' |
+-----------------------------------------
+| Line No:  3 | Address: 501 | Instruction: B DS 2 |
+-----------------------------------------
+| Line No:  4 | Address: 503 | Instruction: MOV R5, R6 |
+-----------------------------------------
+| Line No:  5 | Address: 504 | Instruction: =10 |
+-----------------------------------------
+| Line No:  6 | Address: 504 | Instruction: LTORG |
+-----------------------------------------
+| Line No:  7 | Address: 505 | Instruction: SUB R7, R8 |
+-----------------------------------------
+| Line No:  8 | Address: 506 | Instruction: END |
+-----------------------------------------
+
+Symbol Table:
+A	500
+B	501
+
+Literal Table:
+=10	504
+
+Pool Table:
+0
+1
+
+Intermediate Code:
+500 (DC, '10')
+501 (DS, 2)
+503 (MOV, R5,, R6)
+504 (LIT, =10)
+505 (SUB, R7,, R8)

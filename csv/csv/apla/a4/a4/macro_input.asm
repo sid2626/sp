@@ -1,0 +1,5 @@
+MACRO
+ADD_VAL &A, &B, &C
+ADD &A, &B
+MOV &C, &A
+MEND

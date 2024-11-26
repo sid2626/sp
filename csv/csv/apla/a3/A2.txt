@@ -1,0 +1,10 @@
+START 
+	MOV A,='5'
+	ADD A,='6'
+	LTORG
+	MUL A,B
+	ADD A,='8'
+	LTORG
+	MOV B,='6'
+	ADD B,='5'
+END
